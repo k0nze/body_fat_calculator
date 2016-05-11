@@ -2,3 +2,5 @@
 Implementation of a calculator to calculate your body fat by using the caliper 3-point method in jQuery. 
 
 The calculations are done with [Jackson & Pollock formula](https://de.wikipedia.org/wiki/Calipometrie).
+
+You can find a running version under <http://bodyfat.konze.org>
