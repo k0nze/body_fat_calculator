@@ -23,6 +23,7 @@
             <h2 id="welcome">Welcome to the Body Fat Calculator</h2>
             <p id="description">Please insert the results of your caliper 3-point method measurements.</p>
             <center>
+                <img id="genderPic" src="images/female.svg" alt="measurements" height="50%"/>
                 <table>
                     <tr>
                         <td colspan="2"><h3>Gender</h3></td>
@@ -92,12 +93,14 @@
                 resetLabelsAndValues();
                 $('#d0Label').text('Triceps');
                 $('#d2Label').text('Hip');
+                $('#genderPic').attr('src', 'images/female.svg');
             }
 
             function insertMaleLabelsAndValues() {
                 resetLabelsAndValues();
                 $('#d0Label').text('Breast');
                 $('#d2Label').text('Thigh');
+                $('#genderPic').attr('src', 'images/male.svg');
             }
 
 			function calculateResult() {
